@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+#header {
+    text-align: center;
+    padding: 25px 0;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: #00000059 0px 5px 15px;
+    padding: 40px 15px;
+    background-color: #ffffff;
+}
+
+.login h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+input:focus {
+    border-color: #218838;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input::placeholder {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 6px;
+    font-size: 15px;
+    border: none;
+    background-color: #218838;
+    color: white;
+}
+
+button:hover {
+    background-color: #107428;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.login-button {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #3d3a3a;
+}
+
+.login-button a {
+    text-decoration: none;
+}
+
+.login-button a:hover {
+    text-decoration: underline;
+}
+
+#forgot-password{
+    /* display:none */
+}
